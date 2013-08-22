@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="CuckooPlugin.feature"
+      label="CuckooPlugin Feature"
+      version="0.0.3.qualifier"
+      license-feature="org.eclipse.pde">
+
+   <description>
+      The Cuckoo plugin extends the Android plugin to
+further rewrite the result of the Android plugin
+rewrite of AIDL files, for computation off-loading.
+   </description>
+
+   <copyright url="http://www.example.com/copyright">
+      Copyright (c) 2011 VU University, The Netherlands
+   </copyright>
+
+   <license url="https://raw.github.com/interdroid/cuckoo-plugin-feature/master/LICENSE">
+      BSD 3 clause
+   </license>
+
+   <url>
+      <update label="CuckooPlugin" url="https://raw.github.com/interdroid/cuckoo-plugin-feature/master/exported"/>
+   </url>
+
+   <requires>
+      <import plugin="com.android.ide.eclipse.adt"/>
+      <import plugin="org.eclipse.core.resources"/>
+      <import plugin="org.eclipse.core.runtime"/>
+      <import plugin="org.eclipse.ui"/>
+      <import plugin="org.eclipse.ui.ide"/>
+      <import plugin="org.eclipse.jdt.core"/>
+   </requires>
+
+   <plugin
+         id="CuckooPlugin"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+</feature>
